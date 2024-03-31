@@ -1,0 +1,31 @@
+
+
+Dear Sir/Mam,
+
+I hope this email finds you well and thriving in your endeavors. Today, I'm excited to share with you an enchanting tale of data exploration, magical transformations, and the quest for knowledge in the realm of email classification.
+
+Once upon a time, in the mystical land of Data Science, there lived a group of wizards and sorcerers who delved deep into the secrets of email communication. They sought to uncover the hidden truths buried within the vast expanse of digital messages – distinguishing between the benign whispers of genuine correspondence and the deceptive whispers of spam.
+
+Their journey began with the summoning of ancient tomes encoded in the language of CSV, known as "spam.csv." With incantations whispered and spells cast, they invoked the power of Pandas to summon this sacred artifact into existence.
+
+As they gazed upon the mystic DataFrame revealed before them, they embarked on a quest to cleanse it of impurities. Columns unnamed and unnecessary were banished with a wave of their wand, and noble titles were bestowed upon the remaining columns – "target" and "text."
+
+With the aid of sklearn, they transformed the categorical target into numerical form, paving the way for further exploration. They peered into the depths of the DataFrame, uncovering hidden shadows of missing values and echoes of repetition, banishing them with the power of isnull(), sum(), duplicated(), and drop_duplicates().
+
+As the veil of mystery lifted, they beheld the distribution of "Ham" and "Spam" messages, visualized through pie charts and bar plots, adorned with the hues of dawn and twilight.
+
+But the true magic began with the awakening of NLTK – the ancient library of text processing. With each incantation of tokenization, lowercasing, punctuation removal, and stemming, they transformed the raw text into a purified form ready for analysis.
+
+Through the mystical power of TF-IDF vectorization, they summoned forth the essence of each word, crafting word clouds to visualize the enchanting dance of spam and ham vocabulary.
+
+Their journey reached its climax as they delved into the realm of model building. With the wisdom of Multinomial Naive Bayes, they trained a classifier to discern between friend and foe, spam and ham. Metrics such as accuracy, precision, and confusion matrix were their guideposts on this perilous path.
+
+With their quest complete, they crafted a function to classify email text, allowing them to uncover the true nature of messages with but a single incantation.
+
+And thus, dear [Recipient], I share with you this tale of adventure and discovery – a testament to the power of data and the magic that lies within.
+
+May you too embark on your own journey of exploration, uncovering the mysteries that await in the vast expanse of data.
+
+Yours in curiosity,
+
+Soumyadeep Maity
